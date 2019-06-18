@@ -1,0 +1,27 @@
+body {margin:0;
+    overflow: hidden;}
+
+div {width: 1440px;
+    overflow:hidden;}
+
+img {position: absolute;}
+
+.big {display: block;
+      min-width:100%;}
+
+.middle {display: none}
+.small {display: none}
+
+@media (max-width: 1024px) {
+    .middle {display:block}
+    .big,.small {display:none}
+}
+
+@media (max-width: 736px) {
+    .small {display:block}
+    .big, .middle {display:none}
+}
+
+
+
+
